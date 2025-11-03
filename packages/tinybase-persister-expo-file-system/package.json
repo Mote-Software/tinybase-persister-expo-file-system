@@ -1,6 +1,6 @@
 {
   "name": "@mote-software/tinybase-persister-expo-file-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "TinyBase persister for Expo FileSystem",
   "type": "module",
