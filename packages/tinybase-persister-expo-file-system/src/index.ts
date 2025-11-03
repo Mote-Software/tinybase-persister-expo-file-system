@@ -8,7 +8,7 @@ export interface ExpoFileSystemPersister extends Persister<Persists.StoreOrMerge
   getFilePath(): string;
 }
 
-// Inline JSON utilities to handle undefined values (not exported by tinybase)
+// Inline JSON utilities
 const jsonParseWithUndefined = (json: string): any => {
   return JSON.parse(json, (_key, value) => {
     return value === null ? undefined : value;
@@ -44,8 +44,7 @@ export const createExpoFileSystemPersister = (
     await file.write(jsonStringWithUndefined(getContent()));
   };
 
-  // Expo FileSystem doesn't have native file watching
-  // We'll use a polling approach instead
+  // Expo FileSystem - use a polling approach
   let intervalId: NodeJS.Timeout | null = null;
   let lastModified: number | null = null;
 
