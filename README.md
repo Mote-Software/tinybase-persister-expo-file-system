@@ -2,7 +2,7 @@
 
 A [TinyBase](https://tinybase.org) persister that uses [Expo FileSystem](https://docs.expo.dev/versions/latest/sdk/filesystem/) for persistent storage in React Native Expo apps.
 
-![@mote-software/tinybase-persister-expo-file-system](https://raw.githubusercontent.com/Mote-Software/tinybase-persister-expo-file-system/main/visual.png)
+<img src="https://raw.githubusercontent.com/Mote-Software/tinybase-persister-expo-file-system/main/visual.png" alt="@mote-software/tinybase-persister-expo-file-system" width="350" />
 
 ## Features
 
