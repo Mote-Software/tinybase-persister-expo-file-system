@@ -35,13 +35,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mote-software/tinybase-persister-expo-file-system.git",
+    "url": "https://github.com/Mote-Software/tinybase-persister-expo-file-system.git",
     "directory": "packages/tinybase-persister-expo-file-system"
   },
   "bugs": {
-    "url": "https://github.com/mote-software/tinybase-persister-expo-file-system/issues"
+    "url": "https://github.com/Mote-Software/tinybase-persister-expo-file-system/issues"
   },
-  "homepage": "https://github.com/mote-software/tinybase-persister-expo-file-system#readme",
+  "homepage": "https://github.com/Mote-Software/tinybase-persister-expo-file-system#readme",
   "publishConfig": {
     "access": "public",
     "provenance": true
