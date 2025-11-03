@@ -1,6 +1,6 @@
 {
   "name": "@mote-software/tinybase-persister-expo-file-system",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "TinyBase persister for Expo FileSystem",
   "type": "module",
@@ -14,7 +14,10 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -70,7 +73,10 @@
       "ts": "module",
       "tsx": "module"
     },
-    "nodeArguments": ["--import=tsx", "--no-warnings"],
+    "nodeArguments": [
+      "--import=tsx",
+      "--no-warnings"
+    ],
     "files": [
       "src/**/*.spec.ts",
       "src/**/*.spec.tsx",
