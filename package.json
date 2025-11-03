@@ -1,0 +1,19 @@
+{
+  "name": "tinybase-persister-expo-file-system-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "build": "pnpm --filter @mote-software/tinybase-persister-expo-file-system build",
+    "test": "pnpm --filter @mote-software/tinybase-persister-expo-file-system test",
+    "dev": "pnpm --filter @mote-software/tinybase-persister-expo-file-system dev",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}
