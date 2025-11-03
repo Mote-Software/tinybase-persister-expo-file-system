@@ -6,7 +6,7 @@ Thank you for your interest in contributing to the TinyBase Persister for Expo F
 
 ## Prerequisites
 
-- Node.js >= 18.0.0
+- Node.js >= 22.14.0
 - pnpm >= 9.15.9
 
 ## Quick Start
